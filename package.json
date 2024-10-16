@@ -26,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:ci": "CI=false eslint ."
   },
   "eslintConfig": {
     "extends": [
@@ -35,7 +37,7 @@
     ],
     "rules": {
     "no-unused-vars": "warn",
-    "no-warning-comments": process.env.CI ? "off" : "warn"
+
   }
   },
   "browserslist": {

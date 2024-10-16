@@ -14,6 +14,7 @@ const HeaderBot = () => {
     const loggedInStatus = localStorage.getItem('isLoggedIn');
     if (loggedInStatus === 'true') {
       setIsLoggedIn(true);
+      console.log(isLoggedIn);
     } else {
       setIsLoggedIn(false);
     }

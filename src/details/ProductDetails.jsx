@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react';
 import axios from 'axios';
-import { Container, Typography, Button, Card, CardMedia, CardContent, CardActions, Grid, Box, IconButton, TextField, Rating } from '@mui/material';
+import { Container, Typography, Button, Card, CardMedia, CardContent,  Grid, Box, IconButton, TextField, Rating } from '@mui/material';
 import { useParams, useNavigate } from 'react-router-dom';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';

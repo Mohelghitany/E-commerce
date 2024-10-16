@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Box, Typography, Grid, Button, IconButton, Paper } from '@mui/material';
+import { Box, Typography, Grid,  IconButton, Paper } from '@mui/material';
 import { ArrowForward, ArrowBack } from '@mui/icons-material';
 
 const categories = [

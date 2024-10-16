@@ -10,12 +10,12 @@ import BestSellingProducts from '../component/best.jsx';
 import HomePageSection from '../component/section.jsx';
 import ProductGrid from '../component/show.jsx';
 import FeaturedSection from '../component/new.jsx';
-import { WishlistProvider } from '../WishlistContext';
+
 
 const Home = () => {
   const [flashSales, setFlashSales] = useState([]);
   const [bestSelling, setBestSelling] = useState([]);
-  const [newArrivals, setNewArrivals] = useState([]);
+  
 
   
   useEffect(() => {

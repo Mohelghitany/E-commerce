@@ -23,7 +23,7 @@ const Home = () => {
       .then(response => {
         setFlashSales(response.data.slice(0, 4)); 
         setBestSelling(response.data.slice(4, 8)); 
-        setNewArrivals(response.data.slice(8, 12)); 
+        
       })
       .catch(error => console.error("Error fetching products:", error));
   }, []);

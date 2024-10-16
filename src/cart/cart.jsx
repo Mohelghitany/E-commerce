@@ -4,7 +4,7 @@ import { CartContext } from '../CartContext';
 import { Container, Typography, Grid, Button, Box, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Select, MenuItem } from '@mui/material';
 
 const CartPage = () => {
-  const { cart, removeFromCart, updateQuantity, clearCart } = useContext(CartContext);
+  const { cart,  updateQuantity, clearCart } = useContext(CartContext);
   const navigate = useNavigate();
   const calculateSubtotal = () => {
     return cart.reduce((acc, item) => acc + item.product.price * item.quantity, 0);

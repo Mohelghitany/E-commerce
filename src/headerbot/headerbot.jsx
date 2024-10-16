@@ -14,7 +14,7 @@ const HeaderBot = () => {
     const loggedInStatus = localStorage.getItem('isLoggedIn');
     if (loggedInStatus === 'true') {
       setIsLoggedIn(true);
-      console.log(isLoggedIn);
+      
     } else {
       setIsLoggedIn(false);
     }
@@ -26,6 +26,7 @@ const HeaderBot = () => {
 
   const handleNavigateToFavorites = () => {
     navigate('/cart'); 
+    console.log(isLoggedIn);
   };
   const handleMenuClick = (event) => {
     setAnchorEl(event.currentTarget);

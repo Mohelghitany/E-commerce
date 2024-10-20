@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/E-commerce/static/css/main.f855e6bc.css",
+    "main.js": "/E-commerce/static/js/main.6e6969af.js",
+    "static/js/453.b7c082f8.chunk.js": "/E-commerce/static/js/453.b7c082f8.chunk.js",
+    "static/media/cart.jpg": "/E-commerce/static/media/cart.755ef553ea6f508aeccc.jpg",
+    "static/media/em.jpeg": "/E-commerce/static/media/em.6da69814c18431f8a1f1.jpeg",
+    "static/media/QR.jpeg": "/E-commerce/static/media/QR.4ab27aa3d3c042856b7d.jpeg",
+    "static/media/shop.jpg": "/E-commerce/static/media/shop.60749a329accc581b579.jpg",
+    "static/media/th.jpeg": "/E-commerce/static/media/th.3800ae70b067b619da3d.jpeg",
+    "static/media/ws.jpeg": "/E-commerce/static/media/ws.dfdebcdc34a31533e2cc.jpeg",
+    "static/media/apple.png": "/E-commerce/static/media/apple.56614ccf75d55e23406d.png",
+    "index.html": "/E-commerce/index.html",
+    "main.f855e6bc.css.map": "/E-commerce/static/css/main.f855e6bc.css.map",
+    "main.6e6969af.js.map": "/E-commerce/static/js/main.6e6969af.js.map",
+    "453.b7c082f8.chunk.js.map": "/E-commerce/static/js/453.b7c082f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.6e6969af.js"
+  ]
+}
